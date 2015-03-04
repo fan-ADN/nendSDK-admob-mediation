@@ -1,0 +1,13 @@
+PODS:
+  - Google-Mobile-Ads-SDK (7.0.0)
+  - NendSDK_iOS (2.5.7)
+
+DEPENDENCIES:
+  - Google-Mobile-Ads-SDK (~> 7.0)
+  - NendSDK_iOS
+
+SPEC CHECKSUMS:
+  Google-Mobile-Ads-SDK: 55632bafa382a0987a4cbdefdfea362e24cbe814
+  NendSDK_iOS: 543f15b923a51b19be8ca94ebaa0ad6afde9ba3c
+
+COCOAPODS: 0.35.0
