@@ -1,13 +1,16 @@
 PODS:
-  - Google-Mobile-Ads-SDK (7.0.0)
-  - NendSDK_iOS (2.5.7)
+  - Google-Mobile-Ads-SDK (7.1.0)
+  - NendSDK_iOS (2.5.8.3)
+  - NendSDK_iOS_MediationAdapter (1.2.1.1)
 
 DEPENDENCIES:
   - Google-Mobile-Ads-SDK (~> 7.0)
   - NendSDK_iOS
+  - NendSDK_iOS_MediationAdapter
 
 SPEC CHECKSUMS:
-  Google-Mobile-Ads-SDK: 55632bafa382a0987a4cbdefdfea362e24cbe814
-  NendSDK_iOS: 543f15b923a51b19be8ca94ebaa0ad6afde9ba3c
+  Google-Mobile-Ads-SDK: 9b7c22345f13de4164e9e6d90ad49cce42124c3c
+  NendSDK_iOS: b5e46e6f11e1991bd912e628d5ed84b692b8eca6
+  NendSDK_iOS_MediationAdapter: c6037ed18d46a4918e79d1864110e874e516dd19
 
 COCOAPODS: 0.35.0
