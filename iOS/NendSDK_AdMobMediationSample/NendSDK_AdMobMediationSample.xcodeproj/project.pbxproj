@@ -14,7 +14,6 @@
 		B5D3402F1AA698A20049557A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D3402D1AA698A20049557A /* Main.storyboard */; };
 		B5D340311AA698A20049557A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D340301AA698A20049557A /* Images.xcassets */; };
 		B5D340341AA698A20049557A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D340321AA698A20049557A /* LaunchScreen.xib */; };
-		B5D340531AA6B2B90049557A /* libAdapterNend.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D340521AA6B2B90049557A /* libAdapterNend.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		B5D3402E1AA698A20049557A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5D340301AA698A20049557A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5D340331AA698A20049557A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B5D340521AA6B2B90049557A /* libAdapterNend.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdapterNend.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5D340531AA6B2B90049557A /* libAdapterNend.a in Frameworks */,
 				ADC658426FCA8C217557C2A4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,7 +82,6 @@
 		B5D340221AA698A20049557A /* NendSDK_AdMobMediationSample */ = {
 			isa = PBXGroup;
 			children = (
-				B5D340521AA6B2B90049557A /* libAdapterNend.a */,
 				B5D340271AA698A20049557A /* AppDelegate.h */,
 				B5D340281AA698A20049557A /* AppDelegate.m */,
 				B5D3402A1AA698A20049557A /* ViewController.h */,
