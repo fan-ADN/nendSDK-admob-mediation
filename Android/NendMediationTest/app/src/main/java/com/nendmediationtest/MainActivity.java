@@ -126,9 +126,9 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         bt_show_banner.setOnClickListener(this);
         bt_show_banner.setTag("banner");
 
-        Button bt_show_interstitlal = (Button)this.findViewById(R.id.button2);
-        bt_show_interstitlal.setOnClickListener(this);
-        bt_show_interstitlal.setTag("interstitial");
+        Button bt_show_interstitial = (Button)this.findViewById(R.id.button2);
+        bt_show_interstitial.setOnClickListener(this);
+        bt_show_interstitial.setTag("interstitial");
     }
 
     @Override
