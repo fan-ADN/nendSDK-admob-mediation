@@ -41,9 +41,8 @@
         interstitial_ = nil;
     }
 
-    interstitial_ = [[GADInterstitial alloc] init];
+    interstitial_ = [[GADInterstitial alloc] initWithAdUnitID:AD_INTERSTITIAL_UNIT_ID];
     interstitial_.delegate = self;
-    interstitial_.adUnitID = AD_INTERSTITIAL_UNIT_ID;
     
     GADRequest *request = [GADRequest request];
     [interstitial_ loadRequest:request];
@@ -57,7 +56,7 @@
         bannerView_ = nil;
     }
     
-    bannerView_ = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner origin:CGPointMake(0, 80)];
+    bannerView_ = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner origin:CGPointMake((self.view.frame.size.width - kGADAdSizeBanner.size.width)/2, self.view.frame.size.height - kGADAdSizeBanner.size.height)];
     bannerView_.adUnitID = AD_BANNER_UNIT_ID;
     bannerView_.delegate = self;
     bannerView_.rootViewController = self;
