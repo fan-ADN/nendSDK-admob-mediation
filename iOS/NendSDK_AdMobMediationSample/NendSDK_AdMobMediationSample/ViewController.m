@@ -109,7 +109,6 @@
 }
 - (void)interstitialWillDismissScreen:(GADInterstitial *)interstitial{
     NSLog(@"interstitialWillDismissScreen");
-    [self createAndLoadInterstitial];
 }
 - (void)interstitialDidDismissScreen:(GADInterstitial *)interstitial{
     NSLog(@"interstitialDidDismissScreen");
