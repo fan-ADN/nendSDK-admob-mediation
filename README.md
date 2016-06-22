@@ -4,4 +4,6 @@
 AdMob Mediation でnendSDKを利用するサンプルプロジェクトになります。  
 
 ## Usage
-* [サンプルプロジェクトの利用方法](https://github.com/fan-ADN/nendSDK-admob-mediation/wiki/サンプルプロジェクトの利用方法)
+サンプルプロジェクトの利用方法
+* [iOS](https://github.com/fan-ADN/nendSDK-admob-mediation/wiki/iOS_Sample)
+* [Android](https://github.com/fan-ADN/nendSDK-admob-mediation/wiki/Android_Sample)
