@@ -21,3 +21,4 @@ DerivedData
 !*.xcodeproj/project.pbxproj
 !*.xcworkspace/contents.xcworkspacedata
 Pods/
+Podfile.lock
