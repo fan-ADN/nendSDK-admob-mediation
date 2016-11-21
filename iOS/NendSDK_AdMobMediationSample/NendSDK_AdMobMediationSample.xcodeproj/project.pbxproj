@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ADC658426FCA8C217557C2A4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7D85AFD0B43FE5B5632C69 /* libPods.a */; };
+		1EF99032068B69502D347347 /* libPods-NendSDK_AdMobMediationSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 907673B7733C93C5BA3A9E9A /* libPods-NendSDK_AdMobMediationSample.a */; };
 		B5D340261AA698A20049557A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D340251AA698A20049557A /* main.m */; };
 		B5D340291AA698A20049557A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D340281AA698A20049557A /* AppDelegate.m */; };
 		B5D3402C1AA698A20049557A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D3402B1AA698A20049557A /* ViewController.m */; };
@@ -17,9 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E7D85AFD0B43FE5B5632C69 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		713075565BA9956BF72B4DB7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		A044EA2394ED36EB27E6FC71 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6C9577848CC43C5996B0C8CE /* Pods-NendSDK_AdMobMediationSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NendSDK_AdMobMediationSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-NendSDK_AdMobMediationSample/Pods-NendSDK_AdMobMediationSample.release.xcconfig"; sourceTree = "<group>"; };
+		907673B7733C93C5BA3A9E9A /* libPods-NendSDK_AdMobMediationSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NendSDK_AdMobMediationSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6FC448C057D9A131CAD099 /* Pods-NendSDK_AdMobMediationSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NendSDK_AdMobMediationSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NendSDK_AdMobMediationSample/Pods-NendSDK_AdMobMediationSample.debug.xcconfig"; sourceTree = "<group>"; };
 		B5D340201AA698A20049557A /* NendSDK_AdMobMediationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NendSDK_AdMobMediationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D340241AA698A20049557A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5D340251AA698A20049557A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,28 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADC658426FCA8C217557C2A4 /* libPods.a in Frameworks */,
+				1EF99032068B69502D347347 /* libPods-NendSDK_AdMobMediationSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06AC4C4C1E87A5F2354A95B6 /* Pods */ = {
+		370AF0C2A9C5B426056CC271 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A044EA2394ED36EB27E6FC71 /* Pods.debug.xcconfig */,
-				713075565BA9956BF72B4DB7 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		969A3ED73112423C7858C0B2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4E7D85AFD0B43FE5B5632C69 /* libPods.a */,
+				907673B7733C93C5BA3A9E9A /* libPods-NendSDK_AdMobMediationSample.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66830C7C24CA7789F71FF104 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C6FC448C057D9A131CAD099 /* Pods-NendSDK_AdMobMediationSample.debug.xcconfig */,
+				6C9577848CC43C5996B0C8CE /* Pods-NendSDK_AdMobMediationSample.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		B5D340171AA698A20049557A = {
@@ -66,8 +66,8 @@
 			children = (
 				B5D340221AA698A20049557A /* NendSDK_AdMobMediationSample */,
 				B5D340211AA698A20049557A /* Products */,
-				06AC4C4C1E87A5F2354A95B6 /* Pods */,
-				969A3ED73112423C7858C0B2 /* Frameworks */,
+				66830C7C24CA7789F71FF104 /* Pods */,
+				370AF0C2A9C5B426056CC271 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,11 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5D340431AA698A20049557A /* Build configuration list for PBXNativeTarget "NendSDK_AdMobMediationSample" */;
 			buildPhases = (
-				29DB2DC6E30A0DC1D46CDC7F /* Check Pods Manifest.lock */,
+				12797A84AD9A9EAE751C65C1 /* [CP] Check Pods Manifest.lock */,
 				B5D3401C1AA698A20049557A /* Sources */,
 				B5D3401D1AA698A20049557A /* Frameworks */,
 				B5D3401E1AA698A20049557A /* Resources */,
-				E59F9F7C3E5E7E471074C280 /* Copy Pods Resources */,
+				F10F87661533E4836737855A /* [CP] Embed Pods Frameworks */,
+				1E2E49AB3D9A5FDE2BEBBAF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,7 +132,7 @@
 		B5D340181AA698A20049557A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "F@N Communications";
 				TargetAttributes = {
 					B5D3401F1AA698A20049557A = {
@@ -171,34 +172,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29DB2DC6E30A0DC1D46CDC7F /* Check Pods Manifest.lock */ = {
+		12797A84AD9A9EAE751C65C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E59F9F7C3E5E7E471074C280 /* Copy Pods Resources */ = {
+		1E2E49AB3D9A5FDE2BEBBAF8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NendSDK_AdMobMediationSample/Pods-NendSDK_AdMobMediationSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F10F87661533E4836737855A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NendSDK_AdMobMediationSample/Pods-NendSDK_AdMobMediationSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -249,15 +265,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -291,8 +311,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -300,6 +322,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -316,9 +339,10 @@
 		};
 		B5D340441AA698A20049557A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A044EA2394ED36EB27E6FC71 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 9C6FC448C057D9A131CAD099 /* Pods-NendSDK_AdMobMediationSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NendSDK_AdMobMediationSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -327,15 +351,17 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/NendSDK_AdMobMediationSample",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.nend.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		B5D340451AA698A20049557A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 713075565BA9956BF72B4DB7 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 6C9577848CC43C5996B0C8CE /* Pods-NendSDK_AdMobMediationSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NendSDK_AdMobMediationSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -344,6 +370,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/NendSDK_AdMobMediationSample",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.nend.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
