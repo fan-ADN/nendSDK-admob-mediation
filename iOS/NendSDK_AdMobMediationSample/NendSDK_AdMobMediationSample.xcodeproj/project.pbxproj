@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EF99032068B69502D347347 /* libPods-NendSDK_AdMobMediationSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 907673B7733C93C5BA3A9E9A /* libPods-NendSDK_AdMobMediationSample.a */; };
+		8B112B811F726B04009A9C91 /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B112B801F726B04009A9C91 /* BannerViewController.m */; };
+		8B112B871F726B43009A9C91 /* InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B112B861F726B43009A9C91 /* InterstitialViewController.m */; };
+		8B112B8A1F726B55009A9C91 /* InterstitialVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B112B891F726B55009A9C91 /* InterstitialVideoViewController.m */; };
+		8B112B951F726E38009A9C91 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B112B941F726E38009A9C91 /* RootTableViewController.m */; };
+		8BC2C36E1F72826400D37D46 /* libPods-NendSDK_AdMobMediationSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 907673B7733C93C5BA3A9E9A /* libPods-NendSDK_AdMobMediationSample.a */; };
 		B5D340261AA698A20049557A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D340251AA698A20049557A /* main.m */; };
 		B5D340291AA698A20049557A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D340281AA698A20049557A /* AppDelegate.m */; };
-		B5D3402C1AA698A20049557A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D3402B1AA698A20049557A /* ViewController.m */; };
 		B5D3402F1AA698A20049557A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D3402D1AA698A20049557A /* Main.storyboard */; };
 		B5D340311AA698A20049557A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D340301AA698A20049557A /* Images.xcassets */; };
 		B5D340341AA698A20049557A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D340321AA698A20049557A /* LaunchScreen.xib */; };
@@ -18,6 +21,14 @@
 
 /* Begin PBXFileReference section */
 		6C9577848CC43C5996B0C8CE /* Pods-NendSDK_AdMobMediationSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NendSDK_AdMobMediationSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-NendSDK_AdMobMediationSample/Pods-NendSDK_AdMobMediationSample.release.xcconfig"; sourceTree = "<group>"; };
+		8B112B7F1F726B04009A9C91 /* BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
+		8B112B801F726B04009A9C91 /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
+		8B112B851F726B43009A9C91 /* InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialViewController.h; sourceTree = "<group>"; };
+		8B112B861F726B43009A9C91 /* InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialViewController.m; sourceTree = "<group>"; };
+		8B112B881F726B55009A9C91 /* InterstitialVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialVideoViewController.h; sourceTree = "<group>"; };
+		8B112B891F726B55009A9C91 /* InterstitialVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialVideoViewController.m; sourceTree = "<group>"; };
+		8B112B931F726E38009A9C91 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		8B112B941F726E38009A9C91 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
 		907673B7733C93C5BA3A9E9A /* libPods-NendSDK_AdMobMediationSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NendSDK_AdMobMediationSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6FC448C057D9A131CAD099 /* Pods-NendSDK_AdMobMediationSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NendSDK_AdMobMediationSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NendSDK_AdMobMediationSample/Pods-NendSDK_AdMobMediationSample.debug.xcconfig"; sourceTree = "<group>"; };
 		B5D340201AA698A20049557A /* NendSDK_AdMobMediationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NendSDK_AdMobMediationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,8 +36,6 @@
 		B5D340251AA698A20049557A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5D340271AA698A20049557A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5D340281AA698A20049557A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B5D3402A1AA698A20049557A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B5D3402B1AA698A20049557A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B5D3402E1AA698A20049557A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5D340301AA698A20049557A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5D340331AA698A20049557A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -37,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF99032068B69502D347347 /* libPods-NendSDK_AdMobMediationSample.a in Frameworks */,
+				8BC2C36E1F72826400D37D46 /* libPods-NendSDK_AdMobMediationSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +93,14 @@
 			children = (
 				B5D340271AA698A20049557A /* AppDelegate.h */,
 				B5D340281AA698A20049557A /* AppDelegate.m */,
-				B5D3402A1AA698A20049557A /* ViewController.h */,
-				B5D3402B1AA698A20049557A /* ViewController.m */,
+				8B112B931F726E38009A9C91 /* RootTableViewController.h */,
+				8B112B941F726E38009A9C91 /* RootTableViewController.m */,
+				8B112B7F1F726B04009A9C91 /* BannerViewController.h */,
+				8B112B801F726B04009A9C91 /* BannerViewController.m */,
+				8B112B851F726B43009A9C91 /* InterstitialViewController.h */,
+				8B112B861F726B43009A9C91 /* InterstitialViewController.m */,
+				8B112B881F726B55009A9C91 /* InterstitialVideoViewController.h */,
+				8B112B891F726B55009A9C91 /* InterstitialVideoViewController.m */,
 				B5D3402D1AA698A20049557A /* Main.storyboard */,
 				B5D340301AA698A20049557A /* Images.xcassets */,
 				B5D340321AA698A20049557A /* LaunchScreen.xib */,
@@ -224,8 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5D3402C1AA698A20049557A /* ViewController.m in Sources */,
 				B5D340291AA698A20049557A /* AppDelegate.m in Sources */,
+				8B112B871F726B43009A9C91 /* InterstitialViewController.m in Sources */,
+				8B112B811F726B04009A9C91 /* BannerViewController.m in Sources */,
+				8B112B8A1F726B55009A9C91 /* InterstitialVideoViewController.m in Sources */,
+				8B112B951F726E38009A9C91 /* RootTableViewController.m in Sources */,
 				B5D340261AA698A20049557A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
