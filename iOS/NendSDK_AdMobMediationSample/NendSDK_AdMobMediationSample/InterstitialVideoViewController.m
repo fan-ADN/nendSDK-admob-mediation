@@ -39,10 +39,10 @@
     self.interstitialVideo = [[GADInterstitial alloc] initWithAdUnitID:AD_INTERSTITIAL_VIDEO_UNIT_ID];
     self.interstitialVideo.delegate = self;
     
-    GADRequest *request = [GADRequest request];
     GADMAdapterNendExtras *extras = [[GADMAdapterNendExtras alloc] init];
     extras.interstitialType = GADMNendInterstitialTypeVideo;
     extras.userId = @"Your user id";
+    GADRequest *request = [GADRequest request];
     [request registerAdNetworkExtras:extras];
     
     [self.interstitialVideo loadRequest:request];
