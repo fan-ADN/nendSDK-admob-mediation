@@ -5,6 +5,11 @@
     <string name="action_settings">Settings</string>
     <string name="banner_ad_unit_id"></string>
     <string name="interstitial_ad_unit_id"></string>
+    <string name="interstitial_video_ad_unit_id"></string>
     <string name="show_banner">Show Banner</string>
     <string name="show_interstitial">Show Interstitial</string>
+    <string name="show_video_interstitial">Show Video Interstitial</string>
+    <string name="title_activity_banner">BannerActivity</string>
+    <string name="title_activity_interstitial">InterstitialActivity</string>
+    <string name="title_activity_video_interstitial">VideoInterstitialActivity</string>
 </resources>
