@@ -7,7 +7,7 @@
 
 #import "InterstitialVideoViewController.h"
 @import GoogleMobileAds;
-@import NendAdapter;
+@import NendMediationAdapter;
 
 #define AD_INTERSTITIAL_VIDEO_UNIT_ID   @"Your unit id"
 
